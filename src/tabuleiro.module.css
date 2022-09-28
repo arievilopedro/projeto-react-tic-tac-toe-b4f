@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: gainsboro;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    vertical-align: center;
+    align-items: center;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    vertical-align: center;
+    place-items: center;
+    font-size: 66px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background: rgb(86, 0, 116);
+    background: linear-gradient(90deg, rgba(86, 0, 116, 1) 0%, rgba(204, 0, 193, 1) 100%);
+}
+
+.cell:active {
+    background: rgb(86, 0, 116);
+    background: linear-gradient(90deg, rgba(204, 0, 193, 1) 0%, rgba(86, 0, 116, 1) 110%);
+}
+
+.tabuleiroGalo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10rem;
+}
+
+.botao {
+    cursor: pointer;
+    margin-top: 2rem;
+    width: 10vh;
+    height: 5vh;
+    border-radius: 5px;
+    border-style: none;
+    background: rgb(86, 0, 116);
+    background: linear-gradient(90deg, rgba(86, 0, 116, 1) 0%, rgba(204, 0, 193, 1) 100%);
+    font-size: 1rem;
+    color: white;
+}
+
+.botao:hover {
+    background: rgb(86, 0, 116);
+    background: linear-gradient(90deg, rgba(204, 0, 193, 1) 0%, rgba(86, 0, 116, 1) 110%);
+}
+
+.status {
+    padding-top: 2rem;
+
+}
+
+.titulo {
+    padding-bottom: 1rem;
+
+}
